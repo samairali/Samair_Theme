@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+<body>
+    <referenceBlock name="logo">
+        <arguments>
+            <argument name="logo_img_width" xsi:type="number">100</argument>
+            <argument name="logo_img_height" xsi:type="number">43</argument>
+        </arguments>
+    </referenceBlock>
+		<!-- <block name="after.nav.block" class="Magento\Framework\View\Element\Template" before="-" template="Magento_Theme::afternav_content.phtml" />
+		<move element="after.nav.block" destination="top.links" before="-" /> -->
+</body>
+</page>
+	

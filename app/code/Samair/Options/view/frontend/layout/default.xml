@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+<body>
+		<block name="after.nav.block" class="Magento\Framework\View\Element\Template" before="-" template="Samair_Options::afternav_content.phtml" />
+		<move element="after.nav.block" destination="header.panel" before="-" />
+</body>
+</page>
+	
